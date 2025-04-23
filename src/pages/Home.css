@@ -1,0 +1,34 @@
+.home {
+  flex: 1
+}
+
+.grid {
+  display              : grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap                  : 16px;
+  max-width            : 1298px;
+  padding              : 0 8px;
+  margin               : auto;
+  margin-top           : 24px
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr)
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content      : center;
+    width                : fit-content
+  }
+}
+
+.error {
+  color     : red;
+  text-align: center;
+  font-size : 16px;
+  margin-top: 20px
+}
