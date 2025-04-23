@@ -1,4 +1,4 @@
-# Electra Test
+# Elektra Test
 
 ## Steps to Run the Project
 
